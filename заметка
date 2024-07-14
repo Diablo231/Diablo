@@ -1,0 +1,61 @@
+<section class="cards">
+          <div class="card">
+              <h3>Присоединяйся к команде!</h3>
+              <p>В нашу команду требуются администраторы, разработчики и тестеры.</p>
+          </div>
+          <div class="card">
+              <h3>Участвуй в конкурсе!</h3>
+              <p>Мы решили устроить конкурс, победитель займет первое место по популярности среди Minecraft!</p>
+          </div>
+          <div class="card">
+              <h3>Стань контент-мейкером!</h3>
+              <p>Популяризируй наш проект, ты сможешь получить множество различных бонусов!</p>
+          </div>
+      </section>
+
+
+
+
+
+@media (max-width: 1920px) {
+   
+}
+
+@media (max-width: 1366px) and (max-width: 1920px) {
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin-left: -60px;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 3px 3px #b3b3b3;
+    padding: 20px;
+    text-align: center;
+    max-width: 200px;
+    height: 285px;
+    flex: 1 0 200px;
+    transition: transform 0.3s ease;
+    font-family: "OpenSans-VariableFont_wdth,wght.ttf", sans-serif;
+    margin-left: -60px;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 77px;
+    margin: 20px 0;
+    margin-left: 676px;
+    font-family: "OpenSans-VariableFont_wdth,wght.ttf", sans-serif;
+  }
+
+  .card a img {
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+  }
+
+}
